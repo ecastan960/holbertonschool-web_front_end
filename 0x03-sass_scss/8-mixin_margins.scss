@@ -1,0 +1,14 @@
+/* Sass file that assigns margins with mixins */
+
+@mixin margins($margin) {
+  margin-right: $margin;
+  margin-left: $margin;
+}
+
+body {
+  @include margins($margin: 10px);
+}
+
+div {
+  @include margins($margin: 15px);
+}
