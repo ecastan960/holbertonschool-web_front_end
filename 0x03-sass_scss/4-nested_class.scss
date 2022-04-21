@@ -1,0 +1,11 @@
+/* Sass assigns colors in nested declarations */
+
+$text-color-body: #3d3d3d;
+$text-color-red: #ff0000;
+
+body {
+  color: $text-color-body;
+  .red {
+    color: $text-color-red;
+  }
+}
