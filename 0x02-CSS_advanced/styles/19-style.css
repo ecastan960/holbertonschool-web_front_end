@@ -136,10 +136,6 @@ h6 {
   padding: var(--footer-padding);
 }
 
-.footer ul {
-  text-align: right;
-}
-
 .navbar-menu {
   float: right;
 }
@@ -191,6 +187,10 @@ h6 {
   margin: 0;
   font-size: var(--font-size-small);
   color: var(--text-color);
+}
+
+.footer ul {
+  text-align: right;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
