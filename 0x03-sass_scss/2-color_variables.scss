@@ -1,0 +1,17 @@
+/* Sass file that assigns two variables to body, p and h2 tags */
+
+$text-color: #3d3d3d;
+$back-color: #6d6d6d;
+
+body {
+  color: $text-color;
+  background-color: $back-color;
+}
+
+p {
+  color: $text-color;
+}
+
+h2 {
+  background-color: $back-color;
+}
