@@ -99,7 +99,8 @@ h6 {
 
 .container {
   width: 960px;
-  margin: 0 auto;
+  margin-top: auto;
+  margin-right: auto;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
