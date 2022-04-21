@@ -1,0 +1,15 @@
+/* Sass file that font sizes and text colors to classes. */
+
+.info,
+.success,
+.warning {
+  font-size: 12px;
+}
+
+.success {
+  color: #00ff00;
+}
+
+.warning {
+  color: #ff0000;
+}
