@@ -1,0 +1,9 @@
+/* Sass file that creates a class for each name in a list */
+
+@import "./11-photos.scss";
+
+@each $n in $list-names {
+  .photo-#{$n} {
+    background: image-url("photos/#{$n}.jpg") no-repeat;
+  }
+}
