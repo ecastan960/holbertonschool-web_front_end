@@ -1,0 +1,11 @@
+/* Sass assigns colors to button and hover */
+
+$button-color: #ff0000;
+$button-hover: #00ff00;
+
+button {
+  color: $button-color;
+  &:hover {
+    color: $button-hover;
+  }
+}
