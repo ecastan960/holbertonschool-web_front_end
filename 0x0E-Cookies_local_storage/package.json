@@ -1,0 +1,17 @@
+{
+  "name": "0x0e-cookies_local_storage",
+  "version": "1.0.0",
+  "description": "Holberton project",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node_modules/.bin/webpack-dev-server"
+  },
+  "author": "Esteban Zapata",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0"
+  }
+}
